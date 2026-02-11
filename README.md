@@ -95,4 +95,5 @@ graph TD
     B -- "XUnit Tests" --> D
     A -- "UI Tests" --> D
 Diagrama de Arquitectura (Excalidraw):
-<img width="1024" height="1024" alt="DiagramaArquitectura" src="https://github.com/user-attachments/assets/715ea235-c794-42a9-89bb-5bfdde5499f5" />
+<img width="1024" height="1024" alt="DiagramaArquitectura" src="D:\courseJune25\Proyectos\LoteriAnimalitos\img" />
+
