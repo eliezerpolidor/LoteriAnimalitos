@@ -24,99 +24,109 @@ La pantalla principal está diseñada para ser una Single Page Application (SPA)
 
 **Campos Activos y su Función:**
 
-Panel de Selección (Grid):
+*1.Panel de Selección (Grid):
 
-Una cuadrícula con los 36 o 38 animales. Al hacer clic, el animal se resalta y se añade a la lista de apuesta actual.
+*2.Una cuadrícula con los 36 o 38 animales. Al hacer clic, el animal se resalta y se añade a la lista de apuesta actual.
 
-Selector de Sorteos:
+*3.Selector de Sorteos:
 
-Un menú lateral o superior donde aparecen los sorteos disponibles (Ej: Lotto Activo 10:00 AM, La Granjita 11:00 AM). El sistema debe mostrar cuáles están abiertos y cuáles cerrados según la hora del servidor.
+*4.Un menú lateral o superior donde aparecen los sorteos disponibles (Ej: Lotto Activo 10:00 AM, La Granjita 11:00 AM). El sistema debe mostrar cuáles están abiertos y cuáles cerrados según la hora del servidor.
 
-Campo de Monto (Input):
+*5.Campo de Monto (Input):
 
-Donde se ingresa el valor de la apuesta en Bolívares. Debe tener validación para no permitir montos negativos.
+*6.Donde se ingresa el valor de la apuesta en Bolívares. Debe tener validación para no permitir montos negativos.
 
-Lista de Apuesta (Bet Slip):
+*7.Lista de Apuesta (Bet Slip):
 
-Un resumen a la derecha que muestra los animales seleccionados, el monto por cada uno y el Total a Pagar.
+*8.Un resumen a la derecha que muestra los animales seleccionados, el monto por cada uno y el Total a Pagar.
 
-Botón "Generar Ticket" / "Imprimir":
+*9.Botón "Generar Ticket" / "Imprimir":
 
-Este botón dispara el POST hacia tu API en C#. Si la respuesta es exitosa, se genera el serial del ticket y se activa el comando de impresión.
+*10.Este botón dispara el POST hacia tu API en C#. Si la respuesta es exitosa, se genera el serial del ticket y se activa el comando de impresión.
 
 Captura de pantalla de la interfaz principal:
-`
+`<img width="1024" height="1024" alt="Pantalla Principal" src="img/PantallaPrincipal.png" />
 
 
-🛠️ Tecnologías Utilizadas
+# 🛠️ Tecnologías Utilizadas
+
 Este proyecto se construye sobre un stack tecnológico moderno y robusto:
 
-Frontend
-React: Para una interfaz de usuario dinámica y componentes reutilizables.
+**Frontend**
 
-HTML5: Estructura semántica de la aplicación.
+**React:** Para una interfaz de usuario dinámica y componentes reutilizables.
 
-Tailwind CSS: Para un diseño utilitario y responsivo, agilizando el desarrollo de la UI.
+**HTML5:** Estructura semántica de la aplicación.
 
-JavaScript (ES6+): Lógica interactiva del lado del cliente.
+**Tailwind CSS:** Para un diseño utilitario y responsivo, agilizando el desarrollo de la UI.
 
-Fetch API: Para la comunicación asíncrona con el backend.
+**JavaScript (ES6+):** Lógica interactiva del lado del cliente.
 
-Metodología: Mobile-first design.
+**Fetch API:** Para la comunicación asíncrona con el backend.
 
-Backend
-C# con ASP.NET Core Web API: Para construir un API RESTful robusta, escalable y de alto rendimiento.
+**Metodología:** Mobile-first design.
 
-Entity Framework Core: ORM para una gestión eficiente y tipada de la base de datos.
+**Backend**
+**C# con ASP.NET Core Web API:** Para construir un API RESTful robusta, escalable y de alto rendimiento.
 
-SQL Server: Base de datos relacional para almacenamiento de datos transaccionales.
+**Entity Framework Core:** ORM para una gestión eficiente y tipada de la base de datos.
 
-SignalR: Para comunicación en tiempo real (ej. actualización de resultados de sorteos).
+**SQL Server:** Base de datos relacional para almacenamiento de datos transaccionales.
 
-Pruebas y CI/CD
-XUnit: Framework de testing para pruebas unitarias en C#.
+**SignalR:** Para comunicación en tiempo real (ej. actualización de resultados de sorteos).
 
-TSQLT: Framework para pruebas unitarias en SQL Server, garantizando la integridad de la base de datos.
+**Pruebas y CI/CD**
 
-GitHub Actions: Para integración y despliegue continuo (CI/CD), automatizando el pipeline de desarrollo.
+**XUnit:** Framework de testing para pruebas unitarias en C#.
 
-🧠 Conceptos Técnicos Aplicados
+**TSQLT:** Framework para pruebas unitarias en SQL Server, garantizando la integridad de la base de datos.
+
+**GitHub Actions:** Para integración y despliegue continuo (CI/CD), automatizando el pipeline de desarrollo.
+
+# 🧠 Conceptos Técnicos Aplicados
+
 Este proyecto es un laboratorio para la aplicación de conceptos avanzados de desarrollo:
 
-Frontend (React)
-Componentización y Manejo de Estado: Gestión eficiente de la UI y el flujo de datos de apuestas utilizando React Hooks (useState, useReducer, useEffect).
+**Frontend (React)**
 
-CSS Grid y Flexbox: Diseño de la cuadrícula de animales y la distribución de la interfaz para una experiencia responsiva.
+**Componentización y Manejo de Estado:** Gestión eficiente de la UI y el flujo de datos de apuestas utilizando React Hooks (useState, useReducer, useEffect).
 
-Validación de Formulario: Lógica de validación del lado del cliente para una UX fluida.
+**CSS Grid y Flexbox:** Diseño de la cuadrícula de animales y la distribución de la interfaz para una experiencia responsiva.
 
-Backend (C# & .NET Core)
-API RESTful: Diseño e implementación de endpoints REST siguiendo las mejores prácticas.
+**Validación de Formulario:** Lógica de validación del lado del cliente para una UX fluida.
 
-Inyección de Dependencias (DI): Gestión de servicios y componentes en ASP.NET Core.
+**Backend (C# & .NET Core)**
 
-Lógica de Negocio: Implementación de reglas estrictas para la validación de apuestas (horarios de sorteo, límites, etc.).
+**API RESTful:** Diseño e implementación de endpoints REST siguiendo las mejores prácticas.
 
-Gestión de Transacciones: Asegurar la atomicidad y consistencia de las operaciones en la base de datos.
+**Inyección de Dependencias (DI):** Gestión de servicios y componentes en ASP.NET Core.
 
-Seguridad: Implementación de autenticación y autorización (JWT), y validación de datos.
+**Lógica de Negocio:** Implementación de reglas estrictas para la validación de apuestas (horarios de sorteo, límites, etc.).
 
-Base de Datos (SQL Server)
-Diseño de Esquema: Creación de tablas optimizadas para apuestas, sorteos, usuarios y transacciones.
+**Gestión de Transacciones:** Asegurar la atomicidad y consistencia de las operaciones en la base de datos.
 
-Integridad Referencial: Uso de claves foráneas para mantener la consistencia entre las tablas.
+**Seguridad:** Implementación de autenticación y autorización (JWT), y validación de datos.
 
-Procedimientos Almacenados y Funciones: Optimización de operaciones complejas y lógica de negocio a nivel de base de datos.
+**Base de Datos (SQL Server)**
 
-Pruebas de Integridad: Utilización de TSQLT para asegurar que la lógica de la base de datos funciona como se espera.
+**Diseño de Esquema:** Creación de tablas optimizadas para apuestas, sorteos, usuarios y transacciones.
 
-DevOps
-CI/CD con GitHub Actions: Automatización de la construcción, prueba y despliegue del frontend y backend.
+**Integridad Referencial:** Uso de claves foráneas para mantener la consistencia entre las tablas.
 
-🏗️ Arquitectura del Sistema
+**Procedimientos Almacenados y Funciones:** Optimización de operaciones complejas y lógica de negocio a nivel de base de datos.
+
+**Pruebas de Integridad:** Utilización de TSQLT para asegurar que la lógica de la base de datos funciona como se espera.
+
+**DevOps**
+
+**CI/CD con GitHub Actions:** Automatización de la construcción, prueba y despliegue del frontend y backend.
+
+# 🏗️ Arquitectura del Sistema
+
 La arquitectura del sistema se basa en un modelo cliente-servidor con una API robusta y una base de datos centralizada.
 
-Fragmento de código
+**Fragmento de código**
+
 graph TD
     A[Cliente Web/Escritorio (React)] -->|HTTP/HTTPS (Fetch)| B(ASP.NET Core Web API)
     B -->|Entity Framework Core| C[SQL Server Database]
@@ -126,6 +136,7 @@ graph TD
     A -- "UI Tests" --> D
 Diagrama de Arquitectura (Excalidraw):
 <img width="1024" height="1024" alt="DiagramaArquitectura" src="img/DiagramaArquitectura.png" />
+
 
 
 
