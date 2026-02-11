@@ -215,23 +215,23 @@ Para la organización y ejecución de este proyecto, se utilizarán las siguient
 
 2. **Configura el Backend (C#):**
 
-* Navega a la carpeta src/Backend/SistemaLoteria.Api.
+ * Navega a la carpeta src/Backend/SistemaLoteria.Api.
 
-* Configura tu cadena de conexión a SQL Server en appsettings.json.
+ * Configura tu cadena de conexión a SQL Server en appsettings.json.
 
-* Ejecuta las migraciones de Entity Framework Core: dotnet ef database update.
+ * Ejecuta las migraciones de Entity Framework Core: dotnet ef database update.
 
-* Inicia la API: dotnet run.
+ * Inicia la API: dotnet run.
 
-* Configura el Frontend (React):
+ * Configura el Frontend (React):
 
-* Navega a la carpeta src/Frontend/sistema-loteria-ui.
+ * Navega a la carpeta src/Frontend/sistema-loteria-ui.
 
 3. **Instala las dependencias: npm install o yarn install.**
 
-* Inicia la aplicación React: npm start o yarn start.
+ * Inicia la aplicación React: npm start o yarn start.
 
-* Accede al sistema desde tu navegador en http://localhost:3000 (o el puerto que React use).
+ * Accede al sistema desde tu navegador en http://localhost:3000 (o el puerto que React use).
 
 # 👨‍💻 Sobre mí
 Soy Eliezer Polidor, Desarrollador Web con experiencia en la creación de soluciones creativas y eficientes. Apasionado por la tecnología y siempre en busca de nuevos desafíos para mejorar mis habilidades.
@@ -247,6 +247,7 @@ Reemplaza https://github.com/tu-usuario/sistema-loteria.git y https://tu-portfol
 Cuando tengas tus diagramas de Excalidraw y Dbdiagram, puedes exportarlos como imágenes (SVG es ideal para Markdown) y colocarlos en una carpeta docs/img o assets en tu repositorio, y luego enlazar esas imágenes en el README.md.
 
 Asegúrate de que los enlaces a tu LinkedIn y Portafolio sean correctos.
+
 
 
 
