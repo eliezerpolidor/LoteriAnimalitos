@@ -56,70 +56,71 @@ Este proyecto se construye sobre un stack tecnológico moderno y robusto:
 
 * **React:** Para una interfaz de usuario dinámica y componentes reutilizables.
 
-**HTML5:** Estructura semántica de la aplicación.
+* **HTML5:** Estructura semántica de la aplicación.
 
-**Tailwind CSS:** Para un diseño utilitario y responsivo, agilizando el desarrollo de la UI.
+* **Tailwind CSS:** Para un diseño utilitario y responsivo, agilizando el desarrollo de la UI.
 
-**JavaScript (ES6+):** Lógica interactiva del lado del cliente.
+* **JavaScript (ES6+):** Lógica interactiva del lado del cliente.
 
-**Fetch API:** Para la comunicación asíncrona con el backend.
+* **Fetch API:** Para la comunicación asíncrona con el backend.
 
-**Metodología:** Mobile-first design.
+* **Metodología:** Mobile-first design.
 
-**Backend**
-**C# con ASP.NET Core Web API:** Para construir un API RESTful robusta, escalable y de alto rendimiento.
+# Backend
+ 
+* **C# con ASP.NET Core Web API:** Para construir un API RESTful robusta, escalable y de alto rendimiento.
 
-**Entity Framework Core:** ORM para una gestión eficiente y tipada de la base de datos.
+* **Entity Framework Core:** ORM para una gestión eficiente y tipada de la base de datos.
 
-**SQL Server:** Base de datos relacional para almacenamiento de datos transaccionales.
+* **SQL Server:** Base de datos relacional para almacenamiento de datos transaccionales.
 
-**SignalR:** Para comunicación en tiempo real (ej. actualización de resultados de sorteos).
+* **SignalR:** Para comunicación en tiempo real (ej. actualización de resultados de sorteos).
 
-**Pruebas y CI/CD**
+* **Pruebas y CI/CD**
 
-**XUnit:** Framework de testing para pruebas unitarias en C#.
+* **XUnit:** Framework de testing para pruebas unitarias en C#.
 
-**TSQLT:** Framework para pruebas unitarias en SQL Server, garantizando la integridad de la base de datos.
+* **TSQLT:** Framework para pruebas unitarias en SQL Server, garantizando la integridad de la base de datos.
 
-**GitHub Actions:** Para integración y despliegue continuo (CI/CD), automatizando el pipeline de desarrollo.
+* **GitHub Actions:** Para integración y despliegue continuo (CI/CD), automatizando el pipeline de desarrollo.
 
 # 🧠 Conceptos Técnicos Aplicados
 
 Este proyecto es un laboratorio para la aplicación de conceptos avanzados de desarrollo:
 
-**Frontend (React)**
+# Frontend (React)
 
-**Componentización y Manejo de Estado:** Gestión eficiente de la UI y el flujo de datos de apuestas utilizando React Hooks (useState, useReducer, useEffect).
+* **Componentización y Manejo de Estado:** Gestión eficiente de la UI y el flujo de datos de apuestas utilizando React Hooks (useState, useReducer, useEffect).
 
-**CSS Grid y Flexbox:** Diseño de la cuadrícula de animales y la distribución de la interfaz para una experiencia responsiva.
+* **CSS Grid y Flexbox:** Diseño de la cuadrícula de animales y la distribución de la interfaz para una experiencia responsiva.
 
-**Validación de Formulario:** Lógica de validación del lado del cliente para una UX fluida.
+* **Validación de Formulario:** Lógica de validación del lado del cliente para una UX fluida.
 
-**Backend (C# & .NET Core)**
+* **Backend (C# & .NET Core)**
 
-**API RESTful:** Diseño e implementación de endpoints REST siguiendo las mejores prácticas.
+* **API RESTful:** Diseño e implementación de endpoints REST siguiendo las mejores prácticas.
 
-**Inyección de Dependencias (DI):** Gestión de servicios y componentes en ASP.NET Core.
+* **Inyección de Dependencias (DI):** Gestión de servicios y componentes en ASP.NET Core.
 
-**Lógica de Negocio:** Implementación de reglas estrictas para la validación de apuestas (horarios de sorteo, límites, etc.).
+* **Lógica de Negocio:** Implementación de reglas estrictas para la validación de apuestas (horarios de sorteo, límites, etc.).
 
-**Gestión de Transacciones:** Asegurar la atomicidad y consistencia de las operaciones en la base de datos.
+* **Gestión de Transacciones:** Asegurar la atomicidad y consistencia de las operaciones en la base de datos.
 
-**Seguridad:** Implementación de autenticación y autorización (JWT), y validación de datos.
+* **Seguridad:** Implementación de autenticación y autorización (JWT), y validación de datos.
 
-**Base de Datos (SQL Server)**
+* **Base de Datos (SQL Server)**
 
-**Diseño de Esquema:** Creación de tablas optimizadas para apuestas, sorteos, usuarios y transacciones.
+* **Diseño de Esquema:** Creación de tablas optimizadas para apuestas, sorteos, usuarios y transacciones.
 
-**Integridad Referencial:** Uso de claves foráneas para mantener la consistencia entre las tablas.
+* **Integridad Referencial:** Uso de claves foráneas para mantener la consistencia entre las tablas.
 
-**Procedimientos Almacenados y Funciones:** Optimización de operaciones complejas y lógica de negocio a nivel de base de datos.
+* **Procedimientos Almacenados y Funciones:** Optimización de operaciones complejas y lógica de negocio a nivel de base de datos.
 
-**Pruebas de Integridad:** Utilización de TSQLT para asegurar que la lógica de la base de datos funciona como se espera.
+* **Pruebas de Integridad:** Utilización de TSQLT para asegurar que la lógica de la base de datos funciona como se espera.
 
-**DevOps**
+# DevOps
 
-**CI/CD con GitHub Actions:** Automatización de la construcción, prueba y despliegue del frontend y backend.
+* **CI/CD con GitHub Actions:** Automatización de la construcción, prueba y despliegue del frontend y backend.
 
 # 🏗️ Arquitectura del Sistema
 
@@ -136,6 +137,7 @@ graph TD
     A -- "UI Tests" --> D
 Diagrama de Arquitectura (Excalidraw):
 <img width="1024" height="1024" alt="DiagramaArquitectura" src="img/DiagramaArquitectura.png" />
+
 
 
 
