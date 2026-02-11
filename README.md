@@ -4,17 +4,46 @@ Este proyecto tiene como objetivo desarrollar un sistema integral para la gesti�
 
 Inspirado en sistemas como Lotto Activo, La Granjita, Lotipos y PremierPlus, este proyecto es un desafío técnico que combina interfaces dinámicas, lógica de negocio estricta y seguridad transaccional.
 
-🎯 Demo (Proximamente)
-Aquí podrás incrustar un GIF o un enlace a una demo funcional una vez que tengas algo tangible.
+# 🎯 Demo (Proximamente)
+
+**Aquí va un enlace a una demo funcional una vez que tenga algo tangible.**
+
 Visualización esperada:
 
-Acceso con credenciales.
+* Acceso con credenciales.
 
-Selección de animales/números.
+* Selección de animales/números.
 
-Confirmación de apuesta y generación de ticket.
+* Confirmación de apuesta y generación de ticket.
 
-Consulta de resultados.
+* Consulta de resultados.
+
+# 🖥️ Pantalla Principal: Terminal de Ventas
+
+La pantalla principal está diseñada para ser una Single Page Application (SPA) donde el operador realiza todo el ciclo de venta sin recargar la página.
+
+**Campos Activos y su Función:**
+
+Panel de Selección (Grid):
+
+Una cuadrícula con los 36 o 38 animales. Al hacer clic, el animal se resalta y se añade a la lista de apuesta actual.
+
+Selector de Sorteos:
+
+Un menú lateral o superior donde aparecen los sorteos disponibles (Ej: Lotto Activo 10:00 AM, La Granjita 11:00 AM). El sistema debe mostrar cuáles están abiertos y cuáles cerrados según la hora del servidor.
+
+Campo de Monto (Input):
+
+Donde se ingresa el valor de la apuesta en Bolívares. Debe tener validación para no permitir montos negativos.
+
+Lista de Apuesta (Bet Slip):
+
+Un resumen a la derecha que muestra los animales seleccionados, el monto por cada uno y el Total a Pagar.
+
+Botón "Generar Ticket" / "Imprimir":
+
+Este botón dispara el POST hacia tu API en C#. Si la respuesta es exitosa, se genera el serial del ticket y se activa el comando de impresión.
+
 Captura de pantalla de la interfaz principal:
 `
 
@@ -97,6 +126,7 @@ graph TD
     A -- "UI Tests" --> D
 Diagrama de Arquitectura (Excalidraw):
 <img width="1024" height="1024" alt="DiagramaArquitectura" src="img/DiagramaArquitectura.png" />
+
 
 
 
