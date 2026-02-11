@@ -192,23 +192,19 @@ El sistema soportará las siguientes características principales:
 
 Para la organización y ejecución de este proyecto, se utilizarán las siguientes herramientas y metodologías:
 
-* # Gestión de Proyectos:
+### Gestión de Proyectos:
 
 * **Notion:** Para la organización general del proyecto, documentación de requisitos, decisiones de diseño y seguimiento de la visión global.
 
 * **Jira:** Para la gestión ágil de tareas, sprints, asignación de actividades y seguimiento del progreso del desarrollo (Scrum/Kanban).
 
-# Diseño y Prototipado:
+### Diseño y Prototipado:
 
 * **Figma:** Para el diseño de la interfaz de usuario (UI/UX), prototipos interactivos y mockups.
 
 * **Excalidraw:** Para diagramas de arquitectura, flujos de usuario y conceptualización de ideas de diseño.
 
 * **Dbdiagram.io:** Para el diseño y visualización del modelo de base de datos (diagramas Entidad-Relación).
-
-# 📂 Instalación y Uso
-
-* Clona el repositorio:
 
 ### 📂 Instalación y Uso
 
@@ -217,7 +213,7 @@ Para la organización y ejecución de este proyecto, se utilizarán las siguient
    git clone [https://github.com/eliezerpolidor/LoteriAnimalitos.git](https://github.com/eliezerpolidor/LoteriAnimalitos.git)
    cd LoteriAnimalitos
 
-# Configura el Backend (C#):
+2. **Configura el Backend (C#):**
 
 * Navega a la carpeta src/Backend/SistemaLoteria.Api.
 
@@ -231,7 +227,7 @@ Para la organización y ejecución de este proyecto, se utilizarán las siguient
 
 * Navega a la carpeta src/Frontend/sistema-loteria-ui.
 
-# Instala las dependencias: npm install o yarn install.
+3. **Instala las dependencias: npm install o yarn install.**
 
 * Inicia la aplicación React: npm start o yarn start.
 
@@ -251,6 +247,7 @@ Reemplaza https://github.com/tu-usuario/sistema-loteria.git y https://tu-portfol
 Cuando tengas tus diagramas de Excalidraw y Dbdiagram, puedes exportarlos como imágenes (SVG es ideal para Markdown) y colocarlos en una carpeta docs/img o assets en tu repositorio, y luego enlazar esas imágenes en el README.md.
 
 Asegúrate de que los enlaces a tu LinkedIn y Portafolio sean correctos.
+
 
 
 
