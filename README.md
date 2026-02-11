@@ -24,25 +24,25 @@ La pantalla principal está diseñada para ser una Single Page Application (SPA)
 
 **Campos Activos y su Función:**
 
-*1.Panel de Selección (Grid):
+* Panel de Selección (Grid):
 
-*2.Una cuadrícula con los 36 o 38 animales. Al hacer clic, el animal se resalta y se añade a la lista de apuesta actual.
+* Una cuadrícula con los 36 o 38 animales. Al hacer clic, el animal se resalta y se añade a la lista de apuesta actual.
 
-*3.Selector de Sorteos:
+* Selector de Sorteos:
 
-*4.Un menú lateral o superior donde aparecen los sorteos disponibles (Ej: Lotto Activo 10:00 AM, La Granjita 11:00 AM). El sistema debe mostrar cuáles están abiertos y cuáles cerrados según la hora del servidor.
+* Un menú lateral o superior donde aparecen los sorteos disponibles (Ej: Lotto Activo 10:00 AM, La Granjita 11:00 AM). El sistema debe mostrar cuáles están abiertos y cuáles cerrados según la hora del servidor.
 
-*5.Campo de Monto (Input):
+* Campo de Monto (Input):
 
-*6.Donde se ingresa el valor de la apuesta en Bolívares. Debe tener validación para no permitir montos negativos.
+* Donde se ingresa el valor de la apuesta en Bolívares. Debe tener validación para no permitir montos negativos.
 
-*7.Lista de Apuesta (Bet Slip):
+* Lista de Apuesta (Bet Slip):
 
-*8.Un resumen a la derecha que muestra los animales seleccionados, el monto por cada uno y el Total a Pagar.
+* Un resumen a la derecha que muestra los animales seleccionados, el monto por cada uno y el Total a Pagar.
 
-*9.Botón "Generar Ticket" / "Imprimir":
+* Botón "Generar Ticket" / "Imprimir":
 
-*10.Este botón dispara el POST hacia tu API en C#. Si la respuesta es exitosa, se genera el serial del ticket y se activa el comando de impresión.
+* Este botón dispara el POST hacia tu API en C#. Si la respuesta es exitosa, se genera el serial del ticket y se activa el comando de impresión.
 
 Captura de pantalla de la interfaz principal:
 `<img width="1024" height="1024" alt="Pantalla Principal" src="img/PantallaPrincipal.png" />
@@ -52,9 +52,9 @@ Captura de pantalla de la interfaz principal:
 
 Este proyecto se construye sobre un stack tecnológico moderno y robusto:
 
-**Frontend**
+# Frontend
 
-**React:** Para una interfaz de usuario dinámica y componentes reutilizables.
+* **React:** Para una interfaz de usuario dinámica y componentes reutilizables.
 
 **HTML5:** Estructura semántica de la aplicación.
 
@@ -136,6 +136,7 @@ graph TD
     A -- "UI Tests" --> D
 Diagrama de Arquitectura (Excalidraw):
 <img width="1024" height="1024" alt="DiagramaArquitectura" src="img/DiagramaArquitectura.png" />
+
 
 
 
