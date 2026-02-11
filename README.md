@@ -146,7 +146,7 @@ Diagrama de Arquitectura (Excalidraw):
 <img width="1024" height="1024" alt="DiagramaArquitectura" src="img/DiagramaArquitectura.png" />
 
 Diagrama de Base de Datos (Dbdiagram):
-<img width="1024" height="1024" alt="DiagramaArquitectura" src="img/DiagramaArquitectura.png" />
+<img width="1024" height="1024" alt="DiagramaArquitectura" src="img/BaseDatos.png" />
 
 # 📋 Funcionalidades Clave a Programar
 
@@ -208,32 +208,36 @@ Para la organización y ejecución de este proyecto, se utilizarán las siguient
 
 # 📂 Instalación y Uso
 
-Clona el repositorio:
+* Clona el repositorio:
 
-Bash
-git clone https://github.com/tu-usuario/sistema-loteria.git
-cd sistema-loteria
-Configura el Backend (C#):
+### 📂 Instalación y Uso
 
-Navega a la carpeta src/Backend/SistemaLoteria.Api.
+1. **Clona el repositorio:**
+   ```bash
+   git clone [https://github.com/eliezerpolidor/LoteriAnimalitos.git](https://github.com/eliezerpolidor/LoteriAnimalitos.git)
+   cd LoteriAnimalitos
 
-Configura tu cadena de conexión a SQL Server en appsettings.json.
+# Configura el Backend (C#):
 
-Ejecuta las migraciones de Entity Framework Core: dotnet ef database update.
+* Navega a la carpeta src/Backend/SistemaLoteria.Api.
 
-Inicia la API: dotnet run.
+* Configura tu cadena de conexión a SQL Server en appsettings.json.
 
-Configura el Frontend (React):
+* Ejecuta las migraciones de Entity Framework Core: dotnet ef database update.
 
-Navega a la carpeta src/Frontend/sistema-loteria-ui.
+* Inicia la API: dotnet run.
 
-Instala las dependencias: npm install o yarn install.
+* Configura el Frontend (React):
 
-Inicia la aplicación React: npm start o yarn start.
+* Navega a la carpeta src/Frontend/sistema-loteria-ui.
 
-Accede al sistema desde tu navegador en http://localhost:3000 (o el puerto que React use).
+# Instala las dependencias: npm install o yarn install.
 
-👨‍💻 Sobre mí
+* Inicia la aplicación React: npm start o yarn start.
+
+* Accede al sistema desde tu navegador en http://localhost:3000 (o el puerto que React use).
+
+# 👨‍💻 Sobre mí
 Soy Eliezer Polidor, Desarrollador Web con experiencia en la creación de soluciones creativas y eficientes. Apasionado por la tecnología y siempre en busca de nuevos desafíos para mejorar mis habilidades.
 
 LinkedIn: CV Eliezer Polidor
@@ -247,6 +251,7 @@ Reemplaza https://github.com/tu-usuario/sistema-loteria.git y https://tu-portfol
 Cuando tengas tus diagramas de Excalidraw y Dbdiagram, puedes exportarlos como imágenes (SVG es ideal para Markdown) y colocarlos en una carpeta docs/img o assets en tu repositorio, y luego enlazar esas imágenes en el README.md.
 
 Asegúrate de que los enlaces a tu LinkedIn y Portafolio sean correctos.
+
 
 
 
