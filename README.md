@@ -1,4 +1,4 @@
-#🚀 Sistema de Gestión de Loterías y Apuestas (Animalitos)#
+# 🚀 Sistema de Gestión de Loterías y Apuestas (Animalitos)
 
 Este proyecto tiene como objetivo desarrollar un sistema integral para la gestión de apuestas de loterías de "Animalitos", ofreciendo una plataforma robusta y escalable tanto para operadores como para usuarios finales. Se enfoca en la eficiencia, seguridad y una experiencia de usuario intuitiva.
 
@@ -97,6 +97,7 @@ graph TD
     A -- "UI Tests" --> D
 Diagrama de Arquitectura (Excalidraw):
 <img width="1024" height="1024" alt="DiagramaArquitectura" src="img/DiagramaArquitectura.png" />
+
 
 
 
