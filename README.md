@@ -192,7 +192,7 @@ El sistema soportará las siguientes características principales:
 
 Para la organización y ejecución de este proyecto, se utilizarán las siguientes herramientas y metodologías:
 
-# *Gestión de Proyectos:
+# * Gestión de Proyectos:
 
 * **Notion:** Para la organización general del proyecto, documentación de requisitos, decisiones de diseño y seguimiento de la visión global.
 
@@ -251,6 +251,7 @@ Reemplaza https://github.com/tu-usuario/sistema-loteria.git y https://tu-portfol
 Cuando tengas tus diagramas de Excalidraw y Dbdiagram, puedes exportarlos como imágenes (SVG es ideal para Markdown) y colocarlos en una carpeta docs/img o assets en tu repositorio, y luego enlazar esas imágenes en el README.md.
 
 Asegúrate de que los enlaces a tu LinkedIn y Portafolio sean correctos.
+
 
 
 
