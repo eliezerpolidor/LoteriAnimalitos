@@ -129,14 +129,124 @@ La arquitectura del sistema se basa en un modelo cliente-servidor con una API ro
 **Fragmento de código**
 
 graph TD
+
     A[Cliente Web/Escritorio (React)] -->|HTTP/HTTPS (Fetch)| B(ASP.NET Core Web API)
+
     B -->|Entity Framework Core| C[SQL Server Database]
+    
     B -->|SignalR| A
+    
     C -- "TSQLT Tests" --> D[GitHub Actions]
+    
     B -- "XUnit Tests" --> D
+    
     A -- "UI Tests" --> D
+    
 Diagrama de Arquitectura (Excalidraw):
 <img width="1024" height="1024" alt="DiagramaArquitectura" src="img/DiagramaArquitectura.png" />
+
+Diagrama de Base de Datos (Dbdiagram):
+<img width="1024" height="1024" alt="DiagramaArquitectura" src="img/DiagramaArquitectura.png" />
+
+# 📋 Funcionalidades Clave a Programar
+
+El sistema soportará las siguientes características principales:
+
+# Gestión de Sorteos:
+
+* Registro y configuración de diferentes tipos de sorteos (ej. "Lotto Activo", "La Granjita").
+
+* Definición de horarios de cierre y apertura de apuestas por sorteo.
+
+* Carga y publicación de resultados de sorteos.
+
+# Módulo de Apuestas (Frontend):
+
+* Interfaz intuitiva para la selección de "Animalitos" o "Tripletas".
+
+* Ingreso de montos de apuesta y cálculo automático de premios potenciales.
+
+* Generación de tickets de apuesta con serial único.
+
+* Funcionalidad de impresión de tickets (simulada o real).
+
+# Gestión de Usuarios y Roles:
+
+* Registro y autenticación de usuarios (operadores, administradores).
+
+* Roles con permisos diferenciados (ej. un operador solo puede vender, un administrador puede configurar sorteos).
+
+# Reportes y Estadísticas:
+
+* Consulta de ventas por sorteo, por día, por operador.
+
+* Reportes de ganancias y pérdidas.
+
+# Seguridad Transaccional:
+
+* Validación en tiempo real de horarios de sorteo para evitar apuestas fuera de tiempo.
+
+* Manejo de la integridad de los datos de las apuestas y los resultados.
+
+# 🧠 Metodología de Trabajo y Herramientas
+
+Para la organización y ejecución de este proyecto, se utilizarán las siguientes herramientas y metodologías:
+
+# Gestión de Proyectos:
+
+* **Notion:** Para la organización general del proyecto, documentación de requisitos, decisiones de diseño y seguimiento de la visión global.
+
+* **Jira:** Para la gestión ágil de tareas, sprints, asignación de actividades y seguimiento del progreso del desarrollo (Scrum/Kanban).
+
+# Diseño y Prototipado:
+
+* **Figma:** Para el diseño de la interfaz de usuario (UI/UX), prototipos interactivos y mockups.
+
+* **Excalidraw:** Para diagramas de arquitectura, flujos de usuario y conceptualización de ideas de diseño.
+
+* **Dbdiagram.io:** Para el diseño y visualización del modelo de base de datos (diagramas Entidad-Relación).
+
+# 📂 Instalación y Uso
+
+Clona el repositorio:
+
+Bash
+git clone https://github.com/tu-usuario/sistema-loteria.git
+cd sistema-loteria
+Configura el Backend (C#):
+
+Navega a la carpeta src/Backend/SistemaLoteria.Api.
+
+Configura tu cadena de conexión a SQL Server en appsettings.json.
+
+Ejecuta las migraciones de Entity Framework Core: dotnet ef database update.
+
+Inicia la API: dotnet run.
+
+Configura el Frontend (React):
+
+Navega a la carpeta src/Frontend/sistema-loteria-ui.
+
+Instala las dependencias: npm install o yarn install.
+
+Inicia la aplicación React: npm start o yarn start.
+
+Accede al sistema desde tu navegador en http://localhost:3000 (o el puerto que React use).
+
+👨‍💻 Sobre mí
+Soy Eliezer Polidor, Desarrollador Web con experiencia en la creación de soluciones creativas y eficientes. Apasionado por la tecnología y siempre en busca de nuevos desafíos para mejorar mis habilidades.
+
+LinkedIn: CV Eliezer Polidor
+
+Portafolio: Mi Portafolio
+
+Notas para ti:
+
+Reemplaza https://github.com/tu-usuario/sistema-loteria.git y https://tu-portfolio.com con tus enlaces reales.
+
+Cuando tengas tus diagramas de Excalidraw y Dbdiagram, puedes exportarlos como imágenes (SVG es ideal para Markdown) y colocarlos en una carpeta docs/img o assets en tu repositorio, y luego enlazar esas imágenes en el README.md.
+
+Asegúrate de que los enlaces a tu LinkedIn y Portafolio sean correctos.
 
 
 
