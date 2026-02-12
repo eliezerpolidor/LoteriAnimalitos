@@ -44,7 +44,7 @@ La pantalla principal está diseñada para ser una Single Page Application (SPA)
 
 * Este botón dispara el POST hacia tu API en C#. Si la respuesta es exitosa, se genera el serial del ticket y se activa el comando de impresión.
 
-Captura de pantalla de la interfaz principal:
+* **Captura de pantalla de la interfaz principal:**
 `<img width="1024" height="1024" alt="Pantalla Principal" src="img/PantallaPrincipal.png" />
 
 
@@ -247,6 +247,7 @@ Reemplaza https://github.com/tu-usuario/sistema-loteria.git y https://tu-portfol
 Cuando tengas tus diagramas de Excalidraw y Dbdiagram, puedes exportarlos como imágenes (SVG es ideal para Markdown) y colocarlos en una carpeta docs/img o assets en tu repositorio, y luego enlazar esas imágenes en el README.md.
 
 Asegúrate de que los enlaces a tu LinkedIn y Portafolio sean correctos.
+
 
 
 
