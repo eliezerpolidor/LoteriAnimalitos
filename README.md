@@ -268,3 +268,4 @@ Asegúrate de que los enlaces a tu LinkedIn y Portafolio sean correctos.
 
 
 
+
