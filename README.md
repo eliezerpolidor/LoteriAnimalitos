@@ -142,10 +142,10 @@ graph TD
     
     A -- "UI Tests" --> D
     
-* Diagrama de Arquitectura (Excalidraw):
+* **Diagrama de Arquitectura (Excalidraw):**
 <img width="1024" height="1024" alt="DiagramaArquitectura" src="img/DiagramaArquitectura.png" />
 
-* Diagrama de Base de Datos (Dbdiagram):
+* **Diagrama de Base de Datos (Dbdiagram):**
 <img width="1024" height="1024" alt="DiagramaArquitectura" src="img/BaseDatos.png" />
 
 # 📋 Funcionalidades Clave a Programar
@@ -236,9 +236,9 @@ Para la organización y ejecución de este proyecto, se utilizarán las siguient
 # 👨‍💻 Sobre mí
 Soy Eliezer Polidor, Desarrollador Web con experiencia en la creación de soluciones creativas y eficientes. Apasionado por la tecnología y siempre en busca de nuevos desafíos para mejorar mis habilidades.
 
-LinkedIn: <a href="#">CV Eliezer Polidor</a>
-
-Portafolio: <a href="#">Mi Portafolio</a>
+LinkedIn: <a href="https://www.linkedin.com/in/eliezer-polidor">Eliezer Polidor</a>
+CV Web: <a href="https://eliezerpolidor.github.io/cvEliezer/">Eliezer Polidor</a>
+Portafolio: <a href="https://github.com/eliezerpolidor">Mi Portafolio</a>
 
 Notas para ti:
 
@@ -247,6 +247,7 @@ Reemplaza https://github.com/tu-usuario/sistema-loteria.git y https://tu-portfol
 Cuando tengas tus diagramas de Excalidraw y Dbdiagram, puedes exportarlos como imágenes (SVG es ideal para Markdown) y colocarlos en una carpeta docs/img o assets en tu repositorio, y luego enlazar esas imágenes en el README.md.
 
 Asegúrate de que los enlaces a tu LinkedIn y Portafolio sean correctos.
+
 
 
 
